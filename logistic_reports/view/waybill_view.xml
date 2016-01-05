@@ -65,7 +65,6 @@
             <field name="arch" type="xml">
                 <graph string="waybill" type="pivot">
                     <field name="name" type="row"/>
-                    <field name="consumption" type="measure"/>
                     <field name="total_price" type="measure"/>
                     <field name="total_cost" type="measure"/>
                     <field name="net" type="measure"/>
@@ -73,6 +72,8 @@
                     <field name="cost_km" type="measure"/>
                     <field name="price_km" type="measure"/>
                     <field name="net_km" type="measure"/>
+                    <field name="nafta_consumida" type="measure"/>
+                    <field name="distancia_resumen" type="measure"/>
                 </graph>
             </field>
         </record>
